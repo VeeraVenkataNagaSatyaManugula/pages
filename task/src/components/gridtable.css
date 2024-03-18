@@ -1,0 +1,15 @@
+.grid-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 8px; /* Adjust the gap between cells */
+  }
+  
+  .header, .cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }

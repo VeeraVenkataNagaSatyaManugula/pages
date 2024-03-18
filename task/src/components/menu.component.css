@@ -1,0 +1,10 @@
+
+.menu-bar{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 8px; 
+padding: 20px;
+background-color: #333;
+text-align: center;
+
+}
